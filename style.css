@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper {
+    display: block;
+    width: 970px;
+    height: 1025px;
+    background-image: linear-gradient(#231318, #3d2a31, #6f5964, #3d2a31, #231318);
+}
+
+.header {
+    display: flex;
+    align-items: stretch;
+    background-color: #f7f7f7;
+    justify-content: initial;
+}
+
+h1 {
+    font-family: 'Comic Neue', cursive;
+    padding: 20px;
+    flex-grow: 8;
+    display: inline-block;
+}
+
+h3 {
+    margin: 30px 0px 20px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-grow: 1;
+    display: inline-block
+}
+.about {
+    vertical-align: top;
+    margin: 20px, 0px, 20px, 10px;
+    padding: 20px;
+    display: inline-block; 
+}
+
+.body img {
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 260px;
+    border: 5px solid #a3a3a3;
+}
+
+.subcontents img {
+    height: 150px;
+    border: none;
+}
+
+h2 {
+    padding: 5px;
+    color: #f7f7f7;
+    background-image: linear-gradient(#a6a5ac, #9f9ea6, #898794, #9f9ea6, #a6a5ac);
+}
+
+p {
+    font-size: 15px;
+    display: block;
+    margin: 25px;
+}
+
+p a{
+  color: black; 
+}
+
+.sub-header {
+    background-color: black;
+    text-align: left;
+}
+
+.subcontents {
+    height: 270px;
+    width: 500px;
+    background-image: linear-gradient(90deg, rgba(247,247,247,1) 0%, rgba(235,227,235,1) 50%, rgba(223,209,222,1) 100%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info {
+    height:  600px;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    text-align: justify;
+    font-size: 0.9em;
+}
+
+.info p {
+    height: 140px;
+    font-size: 14px;
+}
+
+.code-logos img {
+    display: inline;
+    height: 35px;
+    margin: 10px;
+}
+
+button {
+    padding: 5px;
+    margin: auto;
+    background-color: #407d61;
+    color: #f7f7f7;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 2px 2px 8px black;
+    display: block;
+}
+.footer {
+    height: 25px;
+    line-height: 25px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.footer * {
+    display: inline;
+    text-align: center;
+}
+
+.footer li a {
+    color: black;
+    text-decoration: none;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer img {
+    vertical-align: middle;
+    height: 16px
+}
+
+
